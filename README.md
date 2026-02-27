@@ -94,3 +94,56 @@ Techniques:
 ---
 
 ## 📂 Repository Structure
+dvdrental-revenue-insights/
+├─ sql/
+│  ├─ 01_top_customers.sql
+│  ├─ 02_top_categories.sql
+│  ├─ 03_top_films.sql
+│  ├─ 04_customer_retention.sql
+│  ├─ 05_pareto_revenue.sql
+│  └─ 06_inventory_utilization.sql
+├─ outputs/
+│  ├─ 01_top_customers.csv
+│  ├─ 02_top_categories.csv
+│  ├─ 03_top_films.csv
+│  ├─ 04_customer_retention.csv
+│  ├─ 05_pareto_revenue.csv
+│  └─ 06_inventory_utilization.csv
+└─ README.md
+
+
+---
+
+## ⚙️ How to Run
+
+1. Install PostgreSQL
+2. Load the dvdrental sample database
+3. Open pgAdmin Query Tool
+4. Execute SQL files in the `/sql` directory
+5. Export results to CSV into `/outputs`
+
+---
+
+## 📊 Key Insights
+
+- Revenue is highly concentrated among a small percentage of customers (Pareto effect).
+- Certain film categories disproportionately drive revenue.
+- Some films have low rentals per copy, indicating possible inventory inefficiency.
+- A strong portion of customers are repeat renters, indicating retention potential.
+
+---
+
+## 🚀 What This Project Demonstrates
+
+- Ability to translate business questions into structured SQL analysis
+- Strong join logic across normalized relational schemas
+- Prevention of double-counting in revenue analysis
+- Practical use of window functions for segmentation
+- Clean, reproducible GitHub-ready analytics workflow
+
+---
+
+## 📎 Dataset
+
+PostgreSQL dvdrental sample database  
+Used for educational and portfolio demonstration purposes.
