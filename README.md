@@ -94,23 +94,25 @@ Techniques:
 ---
 
 ## 📂 Repository Structure
-dvdrental-revenue-insights/
-├─ sql/
-│  ├─ 01_top_customers.sql
-│  ├─ 02_top_categories.sql
-│  ├─ 03_top_films.sql
-│  ├─ 04_customer_retention.sql
-│  ├─ 05_pareto_revenue.sql
-│  └─ 06_inventory_utilization.sql
-├─ outputs/
-│  ├─ 01_top_customers.csv
-│  ├─ 02_top_categories.csv
-│  ├─ 03_top_films.csv
-│  ├─ 04_customer_retention.csv
-│  ├─ 05_pareto_revenue.csv
-│  └─ 06_inventory_utilization.csv
-└─ README.md
-
+sql_projects_dvdrental/
+│
+├── sql/
+│   ├── 01_top_customers.sql
+│   ├── 02_top_categories.sql
+│   ├── 03_top_films.sql
+│   ├── 04_customer_retention.sql
+│   ├── 05_pareto_revenue.sql
+│   └── 06_inventory_utilization.sql
+│
+├── outputs/
+│   ├── 01_top_customers.csv
+│   ├── 02_top_categories.csv
+│   ├── 03_top_films.csv
+│   ├── 04_customer_retention.csv
+│   ├── 05_pareto_revenue.csv
+│   └── 06_inventory_utilization.csv
+│
+└── README.md
 
 ---
 
