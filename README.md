@@ -113,7 +113,6 @@ sql_projects_dvdrental/
 │   └── 06_inventory_utilization.csv
 │
 └── README.md
-
 ---
 
 ## ⚙️ How to Run
