@@ -46,7 +46,7 @@ Techniques:
 - Deep join chains across 6 tables
 - Film-level aggregation
 - Revenue ranking
-- Revenue ranking
+
 
 ---
 
